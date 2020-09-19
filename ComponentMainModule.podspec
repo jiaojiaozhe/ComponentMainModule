@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ComponentMainModule'
-  s.version          = '0.0.1'
+  s.version          = '0.0.2'
   s.summary          = '项目的主容器组件'
 
 # This description is used to generate tags and improve search results.
@@ -32,11 +32,11 @@ Pod::Spec.new do |s|
 
   s.source_files = 'ComponentMainModule/Classes/**/*'
   
-  s.resource_bundles = {
-     'ComponentMainModule' => [
-     'ComponentMainModule/Assets/**/*.png'
-     ]
-   }
+  #s.resource_bundles = {
+  #   'ComponentMainModule' => [
+  #   'ComponentMainModule/Assets/**/*.png'
+  #   ]
+  # }
    
   s.dependency 'LogicBaseComponentModule'
 
