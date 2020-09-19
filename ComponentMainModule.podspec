@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ComponentMainModule'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of ComponentMainModule.'
+  s.version          = '0.0.1'
+  s.summary          = '项目的主容器组件'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,13 +18,13 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+项目的主容器组件
                        DESC
 
   s.homepage         = 'https://github.com/jiaojiaozhe/ComponentMainModule'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'jiaojiaozhe' => 'lanbiao@zhihuihutong.com' }
+  s.author           = { 'jiaojiaozhe' => 'bluebiao@163.com' }
   s.source           = { :git => 'https://github.com/jiaojiaozhe/ComponentMainModule.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
@@ -32,9 +32,13 @@ TODO: Add long description of the pod here.
 
   s.source_files = 'ComponentMainModule/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'ComponentMainModule' => ['ComponentMainModule/Assets/*.png']
-  # }
+  s.resource_bundles = {
+     'ComponentMainModule' => [
+     'ComponentMainModule/Assets/**/*.png'
+     ]
+   }
+   
+  s.dependency 'LogicBaseComponentModule'
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
