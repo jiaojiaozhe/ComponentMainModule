@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "Target_ComponentMainModule.h"
 
 FOUNDATION_EXPORT double ComponentMainModuleVersionNumber;
 FOUNDATION_EXPORT const unsigned char ComponentMainModuleVersionString[];

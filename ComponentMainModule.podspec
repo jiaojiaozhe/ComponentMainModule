@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ComponentMainModule'
-  s.version          = '0.0.2'
+  s.version          = '0.0.3'
   s.summary          = '项目的主容器组件'
 
 # This description is used to generate tags and improve search results.
