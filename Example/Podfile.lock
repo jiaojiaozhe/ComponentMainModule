@@ -15,13 +15,13 @@ PODS:
   - AFNetworking/UIKit (3.2.1):
     - AFNetworking/NSURLSession
   - ComponentMainModule (0.0.4):
-    - ComponentModuleA
-    - ComponentModuleACategory
-    - ComponentModuleB
-    - ComponentModuleBCategory
-    - ComponentModuleC
-    - ComponentModuleCCategory
-    - LogicBaseComponentModule
+    - ComponentModuleA (< 1.0.0)
+    - ComponentModuleACategory (< 1.0.0)
+    - ComponentModuleB (< 1.0.0)
+    - ComponentModuleBCategory (< 1.0.0)
+    - ComponentModuleC (< 1.0.0)
+    - ComponentModuleCCategory (< 1.0.0)
+    - LogicBaseComponentModule (< 1.0.0)
   - ComponentMiddleware (0.0.4)
   - ComponentModuleA (0.0.3):
     - LogicBaseComponentModule
@@ -98,7 +98,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
-  ComponentMainModule: f2a075c2943cae717df01a67326a9406050a4ab9
+  ComponentMainModule: 8e4e3c6363ee77fd25b0f87077aa0faa12f4a9fa
   ComponentMiddleware: 3c87d5351203916b70ad995c46308846d2ba0211
   ComponentModuleA: 64b433412dae7298c0661c7673bc56841ee9c838
   ComponentModuleACategory: d4e391fea6a2c28cbee00b5426cb1b447683ff8c

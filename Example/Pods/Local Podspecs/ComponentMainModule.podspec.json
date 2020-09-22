@@ -27,25 +27,25 @@
   },
   "dependencies": {
     "LogicBaseComponentModule": [
-
+      "< 1.0.0"
     ],
     "ComponentModuleACategory": [
-
+      "< 1.0.0"
     ],
     "ComponentModuleBCategory": [
-
+      "< 1.0.0"
     ],
     "ComponentModuleCCategory": [
-
+      "< 1.0.0"
     ],
     "ComponentModuleA": [
-
+      "< 1.0.0"
     ],
     "ComponentModuleB": [
-
+      "< 1.0.0"
     ],
     "ComponentModuleC": [
-
+      "< 1.0.0"
     ]
   }
 }
