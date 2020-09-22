@@ -14,27 +14,27 @@ PODS:
   - AFNetworking/Serialization (3.2.1)
   - AFNetworking/UIKit (3.2.1):
     - AFNetworking/NSURLSession
-  - ComponentMainModule (0.0.4):
+  - ComponentMainModule (0.0.5):
     - ComponentModuleA (< 1.0.0)
-    - ComponentModuleACategory (< 1.0.0)
+    - ComponentModuleACategory
     - ComponentModuleB (< 1.0.0)
-    - ComponentModuleBCategory (< 1.0.0)
+    - ComponentModuleBCategory
     - ComponentModuleC (< 1.0.0)
-    - ComponentModuleCCategory (< 1.0.0)
-    - LogicBaseComponentModule (< 1.0.0)
+    - ComponentModuleCCategory
+    - LogicBaseComponentModule
   - ComponentMiddleware (0.0.4)
   - ComponentModuleA (0.0.3):
     - LogicBaseComponentModule
-  - ComponentModuleACategory (0.0.2):
-    - ComponentMiddleware
+  - ComponentModuleACategory (0.0.5):
+    - ComponentMiddleware (< 1.0.0)
   - ComponentModuleB (0.0.4):
     - LogicBaseComponentModule
-  - ComponentModuleBCategory (0.0.4):
-    - ComponentMiddleware
+  - ComponentModuleBCategory (0.0.5):
+    - ComponentMiddleware (< 1.0.0)
   - ComponentModuleC (0.0.3):
     - LogicBaseComponentModule
-  - ComponentModuleCCategory (0.0.1):
-    - ComponentMiddleware
+  - ComponentModuleCCategory (0.0.2):
+    - ComponentMiddleware (< 1.0.0)
   - LogicBaseComponentModule (0.0.8):
     - lottie-ios (~> 2.5.3)
     - Masonry (~> 1.1.0)
@@ -98,14 +98,14 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
-  ComponentMainModule: 8e4e3c6363ee77fd25b0f87077aa0faa12f4a9fa
+  ComponentMainModule: 6dca379c9b14fb53262724b71306fcea2c878d4b
   ComponentMiddleware: 3c87d5351203916b70ad995c46308846d2ba0211
   ComponentModuleA: 64b433412dae7298c0661c7673bc56841ee9c838
-  ComponentModuleACategory: d4e391fea6a2c28cbee00b5426cb1b447683ff8c
+  ComponentModuleACategory: ef02d6c928be11ec9ac8986c7c87ddcd79cff9c6
   ComponentModuleB: 367bd500c168a9586c68de685bffcf6d38100125
-  ComponentModuleBCategory: 29fcbcf1231503d22df78a76d4541d9e7c75cd3d
+  ComponentModuleBCategory: 43898767ce6cce5a3235979d0f0cad514ab9122b
   ComponentModuleC: 862bb3f1f55584982869c59849d66cbd99ec1293
-  ComponentModuleCCategory: 869bcc2247a5e925b7ebd6c4e800d2348bc15609
+  ComponentModuleCCategory: 68daef96c55455a47f81ceb4551029d9f876018a
   LogicBaseComponentModule: f001d55a5dcfb11986149c9790f6e188dd72ca23
   lottie-ios: a50d5c0160425cd4b01b852bb9578963e6d92d31
   Mantle: 35238ae6f2e2b2d474fa7b67fee82a59fea71915
@@ -119,6 +119,6 @@ SPEC CHECKSUMS:
   XAbstractionLibrary-UICommon: 7fd862d4f07896b1a8208175ba1c5d11e4e20c40
   XXNibBridge: addb780e6db076eb2c61716aa60b176a6799b80f
 
-PODFILE CHECKSUM: 900d91b4ed00795ec86d0848afa1339388d352aa
+PODFILE CHECKSUM: d3d20dd1aaace293c8e4a511323cb02e59f304c0
 
 COCOAPODS: 1.9.1

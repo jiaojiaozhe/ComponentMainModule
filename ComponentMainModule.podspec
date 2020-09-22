@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ComponentMainModule'
-  s.version          = '0.0.5'
+  s.version          = '0.0.6'
   s.summary          = '项目的主容器组件'
 
 # This description is used to generate tags and improve search results.
@@ -39,10 +39,10 @@ Pod::Spec.new do |s|
      ]
    }
    
-  s.dependency 'LogicBaseComponentModule', '< 1.0.0'
-  s.dependency 'ComponentModuleACategory', '< 1.0.0'
-  s.dependency 'ComponentModuleBCategory', '< 1.0.0'
-  s.dependency 'ComponentModuleCCategory', '< 1.0.0'
+  s.dependency 'LogicBaseComponentModule'
+  s.dependency 'ComponentModuleACategory'
+  s.dependency 'ComponentModuleBCategory'
+  s.dependency 'ComponentModuleCCategory'
   s.dependency 'ComponentModuleA', '< 1.0.0'
   s.dependency 'ComponentModuleB', '< 1.0.0'
   s.dependency 'ComponentModuleC', '< 1.0.0'

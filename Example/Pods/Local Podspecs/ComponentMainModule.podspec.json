@@ -1,6 +1,6 @@
 {
   "name": "ComponentMainModule",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "summary": "项目的主容器组件",
   "description": "项目的主容器组件",
   "homepage": "https://github.com/jiaojiaozhe/ComponentMainModule",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/jiaojiaozhe/ComponentMainModule.git",
-    "tag": "0.0.4"
+    "tag": "0.0.5"
   },
   "platforms": {
     "ios": "8.0"
@@ -27,16 +27,16 @@
   },
   "dependencies": {
     "LogicBaseComponentModule": [
-      "< 1.0.0"
+
     ],
     "ComponentModuleACategory": [
-      "< 1.0.0"
+
     ],
     "ComponentModuleBCategory": [
-      "< 1.0.0"
+
     ],
     "ComponentModuleCCategory": [
-      "< 1.0.0"
+
     ],
     "ComponentModuleA": [
       "< 1.0.0"
