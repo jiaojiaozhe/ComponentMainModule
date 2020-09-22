@@ -14,9 +14,28 @@ PODS:
   - AFNetworking/Serialization (3.2.1)
   - AFNetworking/UIKit (3.2.1):
     - AFNetworking/NSURLSession
-  - ComponentMainModule (0.0.2):
+  - ComponentMainModule (0.0.4):
+    - ComponentModuleA
+    - ComponentModuleACategory
+    - ComponentModuleB
+    - ComponentModuleBCategory
+    - ComponentModuleC
+    - ComponentModuleCCategory
     - LogicBaseComponentModule
-  - LogicBaseComponentModule (0.0.4):
+  - ComponentMiddleware (0.0.4)
+  - ComponentModuleA (0.0.3):
+    - LogicBaseComponentModule
+  - ComponentModuleACategory (0.0.2):
+    - ComponentMiddleware
+  - ComponentModuleB (0.0.4):
+    - LogicBaseComponentModule
+  - ComponentModuleBCategory (0.0.4):
+    - ComponentMiddleware
+  - ComponentModuleC (0.0.3):
+    - LogicBaseComponentModule
+  - ComponentModuleCCategory (0.0.1):
+    - ComponentMiddleware
+  - LogicBaseComponentModule (0.0.8):
     - lottie-ios (~> 2.5.3)
     - Masonry (~> 1.1.0)
     - SDWebImage
@@ -51,6 +70,13 @@ DEPENDENCIES:
 
 SPEC REPOS:
   https://github.com/jiaojiaozhe/XAbstractionLibrary-Specs:
+    - ComponentMiddleware
+    - ComponentModuleA
+    - ComponentModuleACategory
+    - ComponentModuleB
+    - ComponentModuleBCategory
+    - ComponentModuleC
+    - ComponentModuleCCategory
     - LogicBaseComponentModule
     - XAbstractionLibrary-Base
     - XAbstractionLibrary-NetWork
@@ -72,8 +98,15 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
-  ComponentMainModule: f96962e51da3cd8e0695b6ed344cb6fce2072721
-  LogicBaseComponentModule: a361fb2f0927a97fcdc593ab76b818aaaaf78172
+  ComponentMainModule: f2a075c2943cae717df01a67326a9406050a4ab9
+  ComponentMiddleware: 3c87d5351203916b70ad995c46308846d2ba0211
+  ComponentModuleA: 64b433412dae7298c0661c7673bc56841ee9c838
+  ComponentModuleACategory: d4e391fea6a2c28cbee00b5426cb1b447683ff8c
+  ComponentModuleB: 367bd500c168a9586c68de685bffcf6d38100125
+  ComponentModuleBCategory: 29fcbcf1231503d22df78a76d4541d9e7c75cd3d
+  ComponentModuleC: 862bb3f1f55584982869c59849d66cbd99ec1293
+  ComponentModuleCCategory: 869bcc2247a5e925b7ebd6c4e800d2348bc15609
+  LogicBaseComponentModule: f001d55a5dcfb11986149c9790f6e188dd72ca23
   lottie-ios: a50d5c0160425cd4b01b852bb9578963e6d92d31
   Mantle: 35238ae6f2e2b2d474fa7b67fee82a59fea71915
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
@@ -86,6 +119,6 @@ SPEC CHECKSUMS:
   XAbstractionLibrary-UICommon: 7fd862d4f07896b1a8208175ba1c5d11e4e20c40
   XXNibBridge: addb780e6db076eb2c61716aa60b176a6799b80f
 
-PODFILE CHECKSUM: d3d20dd1aaace293c8e4a511323cb02e59f304c0
+PODFILE CHECKSUM: 900d91b4ed00795ec86d0848afa1339388d352aa
 
 COCOAPODS: 1.9.1

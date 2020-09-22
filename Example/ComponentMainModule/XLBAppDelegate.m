@@ -7,12 +7,19 @@
 //
 
 #import "XLBAppDelegate.h"
+#import "AIPageControlManager.h"
+#import <LogicBaseComponentModule/LogicBaseComponentModule-umbrella.h>
 
 @implementation XLBAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    [UIViewController validatePanWithPushTransitionGestureRecognizerType:PushTransitionGestureRecognizerTypePan];
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    self.window.rootViewController = [[AIPageControlManager sharePageControlManager] rootMainViewController];
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 

@@ -10,7 +10,15 @@
 #endif
 #endif
 
+#import "ComponentMainModule.h"
 #import "Target_ComponentMainModule.h"
+#import "AIMainViewController.h"
+#import "AIPageControlManager.h"
+#import "AINavigationController.h"
+#import "AITabBar.h"
+#import "AITabBarController.h"
+#import "AITabBarItem.h"
+#import "ComponentMainViewController.h"
 
 FOUNDATION_EXPORT double ComponentMainModuleVersionNumber;
 FOUNDATION_EXPORT const unsigned char ComponentMainModuleVersionString[];
