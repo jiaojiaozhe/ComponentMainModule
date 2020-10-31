@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ComponentMainModule'
-  s.version          = '0.0.6'
+  s.version          = '0.0.7'
   s.summary          = '项目的主容器组件'
 
 # This description is used to generate tags and improve search results.
@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/jiaojiaozhe/ComponentMainModule.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '9.0'
 
   s.source_files = 'ComponentMainModule/Classes/**/*'
   
@@ -38,7 +38,8 @@ Pod::Spec.new do |s|
      'ComponentMainModule/Assets/**/*.xib'
      ]
    }
-   
+
+  s.dependency 'XAbstractionLibrary-UICommon'
   s.dependency 'LogicBaseComponentModule'
   s.dependency 'ComponentModuleACategory'
   s.dependency 'ComponentModuleBCategory'

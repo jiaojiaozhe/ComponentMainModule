@@ -12,6 +12,7 @@
 
 #import "ComponentModuleB.h"
 #import "Target_ComponentModuleB.h"
+#import "ComponentModuleBPresenter.h"
 #import "ComponentModuleBViewController.h"
 
 FOUNDATION_EXPORT double ComponentModuleBVersionNumber;

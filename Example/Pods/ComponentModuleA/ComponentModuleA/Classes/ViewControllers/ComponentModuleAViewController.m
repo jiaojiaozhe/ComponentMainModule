@@ -18,6 +18,12 @@
     // Do any additional setup after loading the view.
 }
 
+- (XBaseView *)loadViewPresenter{
+    XBaseView *baseView = [[XBaseView alloc] init];
+    baseView.backgroundColor = [UIColor redColor];
+    return baseView;
+}
+
 /*
 #pragma mark - Navigation
 

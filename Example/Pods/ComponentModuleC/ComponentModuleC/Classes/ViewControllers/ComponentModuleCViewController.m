@@ -8,5 +8,9 @@
 #import "ComponentModuleCViewController.h"
 
 @implementation ComponentModuleCViewController
-
+- (XBaseView *)loadViewPresenter{
+    XBaseView *baseView = [[XBaseView alloc] init];
+    baseView.backgroundColor = [UIColor blueColor];
+    return baseView;
+}
 @end
